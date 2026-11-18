@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "tm_ai brain pack verification (verifications/<pack_id>/<verifier>.json)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pack_id", "sha256", "verifier", "created", "code_version", "input_fingerprint", "seeds", "verdict",
+               "maps", "digest", "signed_off"],
+  "properties": {
+    "pack_id": {"type": "string"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "verifier": {"type": "string", "pattern": "^[A-Za-z0-9-]{1,39}$"},
+    "created": {"type": "integer"},
+    "code_version": {"type": "string"},
+    "input_fingerprint": {"type": "string"},
+    "seeds": {"type": "array"},
+    "verdict": {"enum": ["verified", "failed"]},
+    "benchmark": {"type": ["object", "null"]},
+    "maps": {"type": "array", "items": {"type": "object"}},
+    "digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "signed_off": {"type": "string"}
+  }
+}

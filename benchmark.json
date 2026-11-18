@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "Benchmark maps: drive each with no learning, best of 3 fixed seeds. Per map: 100 = par time (e.g. the WR), faster scores more (max 150), no finish = up to 50 for the share of the lap driven, a map you don't have = 0. Score = average over all maps. Maintainers add maps by uid; par_ms is optional.",
+  "maps": []
+}

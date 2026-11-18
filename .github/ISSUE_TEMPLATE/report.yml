@@ -1,0 +1,19 @@
+name: Report a pack
+description: A pack is broken, cheated, unsafe or not what it claims. Reported packs are quarantined until re-verified.
+title: "Report: <pack_id>"
+labels: ["report"]
+body:
+  - type: input
+    id: pack
+    attributes:
+      label: Pack id
+      description: 'Keep the title as "Report: <pack_id>" so the index can find it.'
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: What you did, what happened (time, map UID, tm_ai version).
+    validations:
+      required: true

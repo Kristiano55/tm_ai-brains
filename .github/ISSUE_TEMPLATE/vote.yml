@@ -1,0 +1,11 @@
+name: Vote thread for a pack
+description: One per pack; 👍 reactions on it are the pack's votes.
+title: "Vote: <pack_id>"
+labels: ["vote"]
+body:
+  - type: input
+    id: pack
+    attributes:
+      label: Pack id
+    validations:
+      required: true

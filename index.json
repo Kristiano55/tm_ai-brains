@@ -1,1 +1,15 @@
-{"generated": 0, "packs": [], "verifiers": ["Kristiano55"], "benchmark_url": "benchmark.json"}
+{
+ "generated": 1795015524,
+ "packs": [],
+ "verifiers": [
+  "Kristiano55"
+ ],
+ "benchmark_url": "benchmark.json",
+ "compat": {
+  "min_code_version": "2026.11.18",
+  "input_fingerprints": [
+   "1cd1fafa9aee72bb"
+  ],
+  "note": "Packs must come from a tm_ai version at least min_code_version, with one of these input layouts."
+ }
+}

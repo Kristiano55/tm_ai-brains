@@ -1,3 +1,7 @@
-{"min_code_version": "2026.11.18",
- "input_fingerprints": ["1cd1fafa9aee72bb"],
- "note": "Packs must come from a tm_ai version at least min_code_version, with one of these input layouts."}
+{
+ "min_code_version": "2026.11.19",
+ "input_fingerprints": [
+  "ea10b324b5f1f78f"
+ ],
+ "note": "Packs must come from a tm_ai version at least min_code_version, with one of these input layouts."
+}
